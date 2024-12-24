@@ -47,3 +47,12 @@ To stage all the untracked files use:
 
 # Using git commit
 syntax: git commit -m "commit message"
+                     OR
+        git commit
+      After pressing Enter right after typing this, the VIM Editor will open then to Insert your commit message.
+      You have to first press 'I' key on the keyboard to insert, then you can procced to type your commit message.
+      That will be seen in the top right corner.
+      Once you're finished with your message, you have to exit the VIM editor by clicking esc, then in the bottom rigt you'll see the --INSERT-- written over there disappears and a blanck space is there.
+      Now you have to click on shift + ; to type :, then type wq in assosiation with it.
+      Now, as you hit the enter button you'll exit the VIM editor.
+      And you've successfully inserted your commit message.
