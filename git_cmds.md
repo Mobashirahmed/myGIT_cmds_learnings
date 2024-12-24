@@ -1,3 +1,4 @@
+# GIT
 These are common Git commands used in various situations:
 
 start a working area (see also: git help tutorial)
@@ -37,4 +38,12 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
-PS D:\Code_folder\my_C_programme>
+
+# Using git add
+syntax: git add file_name.extension
+This command stages the untracked files.
+To stage all the untracked files use:
+         git add -A
+
+# Using git commit
+syntax: git commit -m "commit message"
