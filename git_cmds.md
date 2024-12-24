@@ -56,3 +56,15 @@ syntax: git commit -m "commit message"
       Now you have to click on shift + ; to type :, then type wq in assosiation with it.
       Now, as you hit the enter button you'll exit the VIM editor.
       And you've successfully inserted your commit message.
+
+# Create files using git bash
+use touch command to create new files
+syntax: touch file_name.extension
+
+# Zoom IN and Zoom OUT
+use: 'ctrl + + ' to zoom in
+   And 'ctrl + - ' to zoom out
+
+# Using git checkout
+syntax: git checkout file_name.extension
+This command will recover the mentioned file
