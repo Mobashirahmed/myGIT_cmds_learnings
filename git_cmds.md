@@ -49,6 +49,10 @@ This command stages the untracked files.
 To stage all the untracked files use:
          git add -A
 
+# git restore
+git restore --staged <file>...
+to unstage staged files
+
 # Using git commit
 syntax: git commit -m "commit message"
                      OR
