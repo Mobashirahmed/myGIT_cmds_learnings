@@ -1,2 +1,8 @@
 mylogs.log
-new.log
+# In the above manner, you can ignore a file named mylogs.log present in your git directory
+*.log
+# In the above manner, you can ignore every file with the extension .log present in your git directory.
+# /mylogs.log
+# In the above manner, you can ignore a file named mylogs.log present in the root directory of your git directory. It will not look inside any other folders.
+ignore/
+# In the above manner, you can ignore a folder named gitignore present in your git directory.
