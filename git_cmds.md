@@ -67,4 +67,7 @@ use: 'ctrl + + ' to zoom in
 
 # Using git checkout
 syntax: git checkout file_name.extension
-This command will recover the mentioned file
+This command will recover the mentioned file, and matches it to your last commit status.
+OR for more than one file you have to use:
+      git checkout -f
+It will sync all your files in the given git folder to your last commit status.
