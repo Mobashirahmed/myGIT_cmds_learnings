@@ -39,6 +39,10 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
 
+# git status
+   It is used to view the status of your git repositry.
+   we can also use: git status -s
+      This will show you a summary of the changes made to the status of your git repository.
 # Using git add
 syntax: git add file_name.extension
 This command stages the untracked files.
@@ -56,10 +60,13 @@ syntax: git commit -m "commit message"
       Now you have to click on shift + ; to type :, then type wq in assosiation with it.
       Now, as you hit the enter button you'll exit the VIM editor.
       And you've successfully inserted your commit message.
+To directly commit and skip the staging area:
+   git commit -a -m "commit_message"
 
 # Create files using git bash
 use touch command to create new files
 syntax: touch file_name.extension
+      e.g; touch .gitignore
 
 # Zoom IN and Zoom OUT
 use: 'ctrl + + ' to zoom in
@@ -84,3 +91,10 @@ syntax : git diff
 It compares your working directory from staging area. Once you add all you changes to staging area then git diff will not show anything.
 If you want to compare your working directory to your last commit, then use;
    git diff --stage
+
+# Removing a file in git
+
+syntax:  git rm file_name.extension
+      It will delete the file from your working directory as well as from your staging area.
+syntax: git rm --cached file_name.extension
+      It will remove that file from your staging area.
