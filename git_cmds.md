@@ -71,3 +71,16 @@ This command will recover the mentioned file, and matches it to your last commit
 OR for more than one file you have to use:
       git checkout -f
 It will sync all your files in the given git folder to your last commit status.
+
+# git log
+syntax : git log
+This command will show you the logs and details of all your git commits.
+In the bottom left a cursor will blink after : , where you will press Q. to continue to your terminal.
+To know in particular about the few last commits, use
+   git log -p -number_of_commits (numeric form)
+
+# git diff
+syntax : git diff
+It compares your working directory from staging area. Once you add all you changes to staging area then git diff will not show anything.
+If you want to compare your working directory to your last commit, then use;
+   git diff --stage
